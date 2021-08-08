@@ -20,65 +20,63 @@ Finally, some of these key-changes were discovered as part of my own attempts to
 
 It is highly recommended that you do not make any changes to the registry that are not relevant to your own setup.
 
-
-
 WIP draft of planned research sections
 
 Current sub-sections
 
-Desktop and Desktop DPI-related information
-  Includes 
-      Desktop-settings registry keys that are read on startup
+    Desktop and Desktop DPI-related information
+      Includes 
+       Desktop-settings registry keys that are read on startup
             * which keys should exist by default
                 >> A repository of all the default values for every registry sub-section mentioned on this page will eventually be added
                 >> The intent is to provide a comprehensive resource for users who have made changes to their own settings that they now wish to undo.
-      Desktop-settings which are read on startup but are not present by default
+        Desktop-settings which are read on startup but are not present by default
             * which keys should be added to the default settings
-      Desktop-Settings read on startup which are present under multiple different built-in user accounts
+        Desktop-Settings read on startup which are present under multiple different built-in user accounts
             * which keys should be modified in multiple locations to ensure consistent behavior
 
-DWM related information 
-  Includes
-    An explanation on how the DWM rendered desktop may disrupt mouse-input behavior and why this is relevant for fullscreen applications
-    DWM registry keys that are read on startup
+    DWM related information 
+      Includes
+       An explanation on how the DWM rendered desktop may disrupt mouse-input behavior and why this is relevant for fullscreen applications
+        DWM registry keys that are read on startup
             * which keys should exist by default
             * which keys are read on startup but do not exist by default
-       DWM related registry changes with a demonstrable effect that I have been unable to verify is beneficial
+        DWM related registry changes with a demonstrable effect that I have been unable to verify is beneficial
             * how to force the DWM rendered virtual desktop overlay (which is hidden but remains active) to operate identically to the active fullscreen application
                 >> this section contains ongoing research and may include behavior altering changes that I have yet to empirically verify is an improvement over default
       
-Multi-monitor related Information
-   Includes
-      An explanation on how/why multi-monitor setups can alter mouse-input behavior
-      What setupts are likely to be affected by this
-      DWM related registry keys
+    Multi-monitor related Information
+       Includes
+        An explanation on how/why multi-monitor setups can alter mouse-input behavior
+        What setupts are likely to be affected by this
+        DWM related registry keys
 
-Power-setting related information
-    Includes
-       An explanation of how power-policy works by default and how it is organized
-       An explanation on why it is beneficial to expose certain hidden settings
-       A list of keys related to settings with a beneficial effect but are not visible in the settings menu
-            * USB power settings
-            * idle timers/timeouts
-            * Other
+    Power-setting related information
+        Includes
+          An explanation of how power-policy works by default and how it is organized
+          An explanation on why it is beneficial to expose certain hidden settings
+          A list of keys related to settings with a beneficial effect but are not visible in the settings menu
+             * USB power settings
+             * idle timers/timeouts
+             * Other
        
 
-Misc Non-present registry Keys read upon boot that may be relevant
-   Includes
-      Fullscreen enhanced settings under gameconfigstore
-      Keyboard settings
-      Touchpad/pen input settings
+    Misc Non-present registry Keys read upon boot that may be relevant
+       Includes
+         Fullscreen enhanced settings under gameconfigstore
+          Keyboard settings
+         Touchpad/pen input settings
       
 
-Other non-registry changes
-    Includes
-      Group policy edits
-          GDI scaling policy changes
-           * A list of applications that GDI policy changes should be applied to, with verified improvement 
-           * A comprehensive list of all processes that GDI policy changes affect that I have not empirically verified results in improvement
-          Power Policy changes
-           * Throttling changes
-           * How to force specific power schemes hidden from the settings menu
+    Other non-registry changes
+       Includes
+          Group policy edits
+             GDI scaling policy changes
+               * A list of applications that GDI policy changes should be applied to, with verified improvement 
+               * A comprehensive list of all processes that GDI policy changes affect that I have not empirically verified results in improvement
+              Power Policy changes
+               * Throttling changes
+               * How to force specific power schemes hidden from the settings menu
 
       Assigning interrupts
             * Why this may improve your system
