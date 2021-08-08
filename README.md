@@ -1,0 +1,1 @@
+# Gaming-related-Windows-10-Registry-Research
